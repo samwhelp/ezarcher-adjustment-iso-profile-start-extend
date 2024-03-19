@@ -110,6 +110,25 @@ ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/syst
 }
 
 # Copy files to customize the ISO
+cpmyfiles_original () {
+cp pacman.conf ./ezreleng/
+cp profiledef.sh ./ezreleng/
+cp packages.x86_64 ./ezreleng/
+cat ./package-list/desktop-environment.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/theme.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/font.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/input-method.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/tool-common.txt >> ./ezreleng/packages.x86_64
+cp -r grub/ ./ezreleng/
+cp -r efiboot/ ./ezreleng/
+cp -r syslinux/ ./ezreleng/
+cp -r etc/ ./ezreleng/airootfs/
+cp -r opt/ ./ezreleng/airootfs/
+cp -r usr/ ./ezreleng/airootfs/
+mkdir -p ./ezreleng/airootfs/etc/skel
+ln -sf /usr/share/ezarcher ./ezreleng/airootfs/etc/skel/ezarcher
+}
+
 cpmyfiles () {
 cp pacman.conf ./ezreleng/
 cp profiledef.sh ./ezreleng/
@@ -241,6 +260,11 @@ ${MYUSERNM}:!::
 EOF
 }
 
+# Set localtime
+crtlocaltime () {
+ln -sf /usr/share/zoneinfo/Asia/Taipei ./ezreleng/airootfs/etc/localtime
+}
+
 # Start mkarchiso
 runmkarchiso () {
 mkarchiso -v -w ./work -o ./out ./ezreleng
@@ -264,6 +288,7 @@ crtpasswd
 crtgroup
 crtshadow
 crtgshadow
+crtlocaltime
 runmkarchiso
 rmezrepo
 

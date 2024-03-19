@@ -1,0 +1,106 @@
+
+
+
+
+################################################################################
+### Head: Input Methond
+##
+
+
+##
+## ## Fcitx5
+##
+
+
+##
+## ## Arch Wiki
+##
+## * [Fcitx5](https://wiki.archlinux.org/title/Fcitx5)
+##
+
+
+
+
+##
+## ## Fcitx5 / base
+##
+
+#fcitx5-im
+fcitx5
+fcitx5-configtool
+fcitx5-gtk
+fcitx5-qt
+
+
+
+
+##
+## ## Fcitx5 / chewing
+##
+
+fcitx5-chewing
+
+
+
+
+##
+## ## Fcitx5 / table
+##
+
+#fcitx5-chinese-addons
+#fcitx5-table-extra
+#fcitx5-table-other
+
+
+
+
+##
+## ## Fcitx5 / m17n
+##
+
+#fcitx5-m17n
+
+
+
+
+##
+## ## Fcitx5 / pinyin
+##
+
+#fcitx5-pinyin-zhwiki
+
+
+
+
+##
+## ## Fcitx5 / rime
+##
+
+#fcitx5-rime
+
+
+
+
+##
+## ## Fcitx5 / mozc
+##
+
+#fcitx5-mozc
+
+
+
+
+##
+## ## Fcitx5 / japanese
+##
+
+#fcitx5-anthy
+#fcitx5-skk
+#fcitx5-kkc
+
+
+
+
+##
+### Tail: Input Methond
+################################################################################

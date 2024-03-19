@@ -1,0 +1,58 @@
+
+
+
+
+################################################################################
+### Head: Desktop Environment
+##
+
+
+##
+## ## Kde
+##
+
+#kwin
+kdeplasma-addons
+
+
+
+
+##
+## ## Kde / Tool / Terminal
+##
+
+konsole
+yakuake
+
+
+
+
+##
+## ## Kde / Tool / File Manager
+##
+
+dolphin
+
+
+
+
+##
+## ## Kde / Tool / Text Editor
+##
+
+kwrite
+kate
+
+
+
+
+##
+## ## Kde / Tool / Image Viewer
+##
+
+gwenview
+
+
+##
+### Tail: Desktop Environment
+################################################################################
