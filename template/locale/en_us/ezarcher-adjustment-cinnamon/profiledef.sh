@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="ezarcher-cinn"
-iso_label="EZARCHER-CINN_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
+iso_name="ezarcher-cinnamon"
+iso_label="EZARCHER-CINNAMON_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m)"
 iso_publisher="Ezarcher Linux <https://sourceforge.net/projects/ezarch/>"
 iso_application="Ezarcher DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%y%m%d)"
