@@ -132,7 +132,11 @@ cat ./package-list/desktop-environment.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/theme.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/font.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/input-method.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/shell.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/util.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/develop.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/tool-common.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/office.txt >> ./ezreleng/packages.x86_64
 cp -r grub/ ./ezreleng/
 cp -r efiboot/ ./ezreleng/
 cp -r syslinux/ ./ezreleng/
