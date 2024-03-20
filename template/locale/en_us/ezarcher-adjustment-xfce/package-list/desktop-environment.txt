@@ -7,6 +7,55 @@
 ##
 
 
+
+
+##
+## ## Xfce
+##
+
+xfce4
+xfce4-goodies
+
+
+
+
+##
+## ## Xfce / Tool / Terminal
+##
+
+xfce4-terminal
+
+
+
+
+##
+## ## Xfce / Tool / File Manager
+##
+
+thunar
+pcmanfm-qt
+
+
+
+
+##
+## ## Xfce / Tool / Text Editor
+##
+
+mousepad
+
+
+
+
+##
+## ## Xfce / Tool / Image Viewer
+##
+
+viewnior
+
+
+
+
 ##
 ### Tail: Desktop Environment
 ################################################################################

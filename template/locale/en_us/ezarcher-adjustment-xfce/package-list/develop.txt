@@ -8,5 +8,43 @@
 
 
 ##
+## ## Develop
+##
+
+
+
+
+##
+## ## Develop / base
+##
+
+base-devel
+
+
+
+
+##
+## ## Develop / arch
+##
+
+archiso
+archinstall
+arch-install-scripts
+
+#arch-wiki-docs
+#arch-wiki-lite
+
+
+
+
+##
+## ## Develop / php
+##
+
+php
+
+
+
+##
 ### Tail: Develop
 ################################################################################

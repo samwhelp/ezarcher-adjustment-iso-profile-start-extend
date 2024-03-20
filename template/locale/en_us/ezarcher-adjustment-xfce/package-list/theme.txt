@@ -8,5 +8,65 @@
 
 
 ##
+## ## Theme
+##
+
+
+##
+## ## Theme / engine
+##
+
+gtk-engines
+gtk-engine-murrine
+
+qt5-svg
+qt6-svg
+
+
+
+
+##
+## ## Theme / papirus-theme
+##
+
+papirus-icon-theme
+
+
+
+
+##
+## ## Theme / numix-theme
+##
+
+#numix-gtk-theme-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#numix-folders-git
+
+
+
+
+##
+## ## Theme / arc-theme
+##
+
+arc-gtk-theme
+#arc-icon-theme
+
+
+
+
+##
+## ## Theme / breeze-theme
+##
+
+breeze
+breeze-gtk
+breeze-icons
+
+
+
+
+##
 ### Tail: Theme
 ################################################################################

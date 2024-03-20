@@ -8,5 +8,30 @@
 
 
 ##
+## ## Office
+##
+
+
+
+
+##
+## ## Office / libreoffice
+##
+
+libreoffice-still
+libreoffice-still-zh-tw
+
+
+
+
+##
+## ## Office / okular
+##
+
+okular
+
+
+
+##
 ### Tail: Office
 ################################################################################

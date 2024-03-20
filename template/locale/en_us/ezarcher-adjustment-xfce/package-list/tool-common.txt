@@ -8,5 +8,100 @@
 
 
 ##
+## ## Tool
+##
+
+
+
+
+##
+## ## Tool / Launcher
+##
+
+rofi
+
+
+
+
+##
+## ## Tool / Terminal
+##
+
+qterminal
+xfce4-terminal
+#sakura
+#lxterminal
+#mate-terminal
+#gnome-terminal
+
+
+
+
+##
+## ## Tool / File Manager
+##
+
+thunar
+pcmanfm-qt
+#pcmanfm
+
+
+
+
+##
+## ## Tool / Text Editor
+##
+
+mousepad
+vim
+micro
+
+featherpad
+feathernotes
+
+geany
+
+
+
+
+##
+## ## Tool / Image Viewer
+##
+
+viewnior
+
+
+
+
+##
+## ## Tool / Media Player
+##
+
+vlc
+mpv
+smplayer
+
+
+
+
+##
+## ## Tool / Audio Player
+##
+
+audacious
+
+
+
+
+##
+## ## Tool / Wallpaper Manager
+##
+
+variety
+
+
+
+
+##
 ### Tail: Tool / Common
 ################################################################################

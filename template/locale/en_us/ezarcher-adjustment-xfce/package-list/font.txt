@@ -8,5 +8,63 @@
 
 
 ##
+## ## Font
+##
+
+
+
+
+##
+## ## Font / dejavu
+##
+
+ttf-dejavu
+
+
+
+
+##
+## ## Font / ubuntu
+##
+
+ttf-ubuntu-font-family
+#ttf-ubuntu-nerd
+#ttf-ubuntu-mono-nerd
+
+
+
+
+##
+## ## Font / noto
+##
+
+#noto-fonts
+noto-fonts-cjk
+#noto-fonts-emoji
+#noto-fonts-extra
+
+
+
+
+##
+## ## Font / liberation
+##
+
+ttf-liberation
+#ttf-liberation-mono-nerd
+
+
+
+
+##
+## ## Font / jetbrains
+##
+
+#ttf-jetbrains-mono
+
+
+
+
+##
 ### Tail: Font
 ################################################################################
