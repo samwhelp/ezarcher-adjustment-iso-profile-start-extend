@@ -13,4 +13,4 @@ Target = lsb-release
 [Action]
 Description = Add Ezarcher Adjustment specifc config.
 When = PostTransaction
-Exec = /bin/sh -c "sed -i -e s'?^DISTRIB_ID=.*$?DISTRIB_ID=Ezarcher-Adjustment-Kde-Plasma?' -e s'?^DISTRIB_DESCRIPTION=.*$?DISTRIB_DESCRIPTION=\"Ezarcher Adjustment / Kde Plasma\"?' /etc/lsb-release"
+Exec = /bin/sh -c "sed -i -e s'?^DISTRIB_ID=.*$?DISTRIB_ID=Ezarcher-Adjustment-Xfce?' -e s'?^DISTRIB_DESCRIPTION=.*$?DISTRIB_DESCRIPTION=\"Ezarcher Adjustment / Xfce\"?' /etc/lsb-release"
