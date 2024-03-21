@@ -106,8 +106,7 @@ ln -sf /usr/lib/systemd/system/haveged.service ./ezreleng/airootfs/etc/systemd/s
 ln -sf /usr/lib/systemd/system/cups.service ./ezreleng/airootfs/etc/systemd/system/printer.target.wants/cups.service
 ln -sf /usr/lib/systemd/system/cups.socket ./ezreleng/airootfs/etc/systemd/system/sockets.target.wants/cups.socket
 ln -sf /usr/lib/systemd/system/cups.path ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/cups.path
-#ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
-ln -sf /usr/lib/systemd/system/lightdm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
+ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
 }
 
 addnmlinks () {
@@ -124,7 +123,8 @@ ln -sf /usr/lib/systemd/system/haveged.service ./ezreleng/airootfs/etc/systemd/s
 ln -sf /usr/lib/systemd/system/cups.service ./ezreleng/airootfs/etc/systemd/system/printer.target.wants/cups.service
 ln -sf /usr/lib/systemd/system/cups.socket ./ezreleng/airootfs/etc/systemd/system/sockets.target.wants/cups.socket
 ln -sf /usr/lib/systemd/system/cups.path ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/cups.path
-ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
+#ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
+ln -sf /usr/lib/systemd/system/lightdm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
 }
 
 # Copy files to customize the ISO
