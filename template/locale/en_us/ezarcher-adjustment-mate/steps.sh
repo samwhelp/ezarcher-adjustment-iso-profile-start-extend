@@ -92,6 +92,23 @@ rm ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/iwd.service
 }
 
 # Add cups, haveged, NetworkManager, & sddm systemd links
+addnmlinks_original () {
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/network-online.target.wants
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/printer.target.wants
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/sockets.target.wants
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/timers.target.wants
+mkdir -p ./ezreleng/airootfs/etc/systemd/system/sysinit.target.wants
+ln -sf /usr/lib/systemd/system/NetworkManager-wait-online.service ./ezreleng/airootfs/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service
+ln -sf /usr/lib/systemd/system/NetworkManager-dispatcher.service ./ezreleng/airootfs/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service
+ln -sf /usr/lib/systemd/system/NetworkManager.service ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/NetworkManager.service
+ln -sf /usr/lib/systemd/system/haveged.service ./ezreleng/airootfs/etc/systemd/system/sysinit.target.wants/haveged.service
+ln -sf /usr/lib/systemd/system/cups.service ./ezreleng/airootfs/etc/systemd/system/printer.target.wants/cups.service
+ln -sf /usr/lib/systemd/system/cups.socket ./ezreleng/airootfs/etc/systemd/system/sockets.target.wants/cups.socket
+ln -sf /usr/lib/systemd/system/cups.path ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants/cups.path
+ln -sf /usr/lib/systemd/system/sddm.service ./ezreleng/airootfs/etc/systemd/system/display-manager.service
+}
+
 addnmlinks () {
 mkdir -p ./ezreleng/airootfs/etc/systemd/system/network-online.target.wants
 mkdir -p ./ezreleng/airootfs/etc/systemd/system/multi-user.target.wants
