@@ -103,5 +103,24 @@ variety
 
 
 ##
+## ## Tool / File Archiver
+##
+
+lxqt-archiver
+engrampa
+
+
+
+
+##
+## ## Tool / Media
+##
+
+mate-media
+
+
+
+
+##
 ### Tail: Tool / Common
 ################################################################################
