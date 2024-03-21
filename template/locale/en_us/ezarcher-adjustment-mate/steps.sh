@@ -128,7 +128,9 @@ cpmyfiles () {
 cp pacman.conf ./ezreleng/
 cp profiledef.sh ./ezreleng/
 cp packages.x86_64 ./ezreleng/
+cat ./package-list/display-manager.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/desktop-environment.txt >> ./ezreleng/packages.x86_64
+cat ./package-list/window-manager.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/theme.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/font.txt >> ./ezreleng/packages.x86_64
 cat ./package-list/input-method.txt >> ./ezreleng/packages.x86_64
