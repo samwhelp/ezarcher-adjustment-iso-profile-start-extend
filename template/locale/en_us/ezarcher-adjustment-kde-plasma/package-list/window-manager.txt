@@ -15,10 +15,10 @@
 
 
 ##
-## ## Window Manager / xfwm4
+## ## Window Manager / kwin
 ##
 
-xfwm4
+kwin
 
 
 

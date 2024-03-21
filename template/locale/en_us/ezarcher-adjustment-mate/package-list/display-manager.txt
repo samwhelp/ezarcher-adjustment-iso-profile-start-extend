@@ -1,0 +1,49 @@
+
+
+
+
+################################################################################
+### Head: Display Manager
+##
+
+
+##
+## ## Display Manager
+##
+
+
+##
+## ## Display Manager / lightdm
+##
+
+lightdm
+lightdm-settings
+
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+#lightdm-slick-greeter
+
+
+#lightdm-pantheon-greeter
+
+
+#lightdm-webkit2-greeter
+#lightdm-webkit2-theme-reactive
+
+
+
+
+##
+## ## Display Manager / sddm
+##
+
+sddm
+
+
+
+
+##
+### Tail: Display Manager
+################################################################################
